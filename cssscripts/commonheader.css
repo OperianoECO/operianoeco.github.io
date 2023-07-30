@@ -1,0 +1,94 @@
+* {
+    font-family: 'MedievalSharp';
+    border: 0;
+}
+
+body {
+    margin: 0;
+    background-color: 
+    rgb(210, 203, 162) !important;
+}
+
+
+header {
+    font-size: 1.2em;
+    align-items: center;
+    text-align: center;
+    background-color: goldenrod;
+    padding: 10px;
+    border-color: black;
+    overflow: auto;
+}
+
+header #p1{
+    margin-top: 0px;
+    font-size: 1.4em !important;
+    font-weight: bold;
+    border-radius: 13px;
+    background-color: rgb(252, 212, 164);
+    display: flex;
+    justify-content: center;
+}
+
+header #topnav a{
+    margin: 10px;
+    color: black;
+    font-size: 25px;
+    text-decoration-line: none;
+}
+
+header #topnav a:hover{
+    color: red;
+    border-color: red;
+}
+
+article {
+    width: 100%;
+    display: inline-block;
+    background-image: url(../digitalmedia/images/castle-background.jpg);
+    margin-bottom: 0;
+    overflow: auto;
+    animation: slide 20s infinite;
+}
+
+@keyframes slide{
+    25%{
+        background: url(../digitalmedia/images/home-page-background-1.jpg);
+    }
+    50%{
+        background: url(../digitalmedia/images/home-page-background-2.jpg);
+    }
+    75%{
+        background: url(../digitalmedia/images/home-page-background-3.jpg);
+    }
+    100% {
+        background: url(../digitalmedia/images/home-page-background-4.jpg);
+    }
+
+}
+article p {
+    position: relative;
+    color: whitesmoke;
+    font-size: 75px;
+    width: 500px;
+    text-align: center;
+    height: auto;
+    margin: 150px;
+    color: rgb(19, 2, 36);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+hr {
+    width: 90%;
+    height: 20px;
+    margin: 0 auto;
+    background-color: blanchedalmond;
+}
+
+#registration {
+    text-align: center;
+    font-style: italic;
+    float: right;
+    font-family: 'Garamond';
+    font-weight: bold;
+}

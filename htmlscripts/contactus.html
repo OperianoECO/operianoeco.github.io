@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../cssscripts/contactus.css" type="text/css">
+        <link rel="stylesheet" href="../cssscripts/commonheader.css" type="text/css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <title>FriendsMC</title>
+    </head>
+<body>
+<div id="content">
+<header>
+    <p id="p1">FriendsMC</p>
+    <nav id="topnav">
+        <a href="index.html"><img src="../digitalmedia/images/home-page.png"></a>
+        <a href="aboutus.html">About Us</a>
+        <a href="ourexperiences.html">Our Experiences</a>
+        <a href="ourtestimonials.html">Our Testimonials</a>
+        <a href="ourproducts.html">Our Products</a>
+        <a href="joinus.html">Join Us</a>
+        <a href="contactus.html"><strong>Contact Us</strong></a>
+    </nav>
+</header>
+<hr>
+<article>
+    <p>FriendsMC - Contact Us</p>
+</article>
+<hr>
+<footer>
+<h1 class="header-title">Contact and Connect With Us</h1>
+<div class="container">
+    <p class="flexbox-item">Ever wanted to find out more about FriendsMC? Do contact us via email for any enquiries!</p>
+    <form action="../htmlscripts/homepage.html" method="post" class="form" onsubmit="alert('Thank you! Your message has been successfully sent to our database for processing.')">
+        <legend class="form-item">Contact Us</legend>
+        <label for="fname" class="form-item">First Name:</label>
+        <input type="text" name="fname" id="fname" placeholder="First Name" class="form-item"required>
+        <label for="lname" class="form-item">Last Name:</label>
+        <input type="text" name="lname" id="lname" placeholder="Last Name" class="form-item" required>
+        <label for="pnumber" class="form-item">Phone Number(Singapore):</label>
+        <input type="text" name="pnumber" id="pnumber" placeholder="Phone Number (e.g 90113056)" class="form-item" pattern="[0-9]{8}" required>
+        <label for="message" class="form-item">Message:</label>
+        <textarea name="message" id="message" placeholder="Enter your Message" class="form-item" required rows="10" cols="60"></textarea>
+        <input type="submit" value="Submit" class="form-item">
+        <p class="flexbox-item">Our Headquarters: Nanyang Polytechnic 180 Ang Mo Kio Avenue 8 Singapore 569830</p>
+        <div class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15954.644746298643!2d103.8489487!3d1.37995!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da16eb64b0249d%3A0xe5f10ff680eed942!2sNanyang%20Polytechnic!5e0!3m2!1sen!2ssg!4v1690713961018!5m2!1sen!2ssg" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </form>
+</div>
+
+
+</div>
+</footer>
+<p id="registration">Registered @ 2023 Certified Minecraft Realm Servers</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,78 @@
+#content {
+    height: 100vh;
+    min-width: 500px;
+    width: 100%;
+    margin: 0;
+}
+
+article {
+    width: 100%;
+    display: inline-block;
+    background-image: url(../digitalmedia/images/castle-background.jpg);
+    margin-bottom: 0;
+    overflow: auto;
+}
+
+article p {
+    position: relative;
+    color: whitesmoke;
+    font-size: 50px;
+    width: 500px;
+    text-align: center;
+    height: auto;
+    margin: 150px;
+}
+
+footer {
+    background-color: antiquewhite;
+    text-align: center;
+    height: auto;
+    overflow: auto;
+}
+footer #bottom-flexbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.flex-item-bottom{
+    width: 80%;;
+    border: 5px solid rgba(43, 44, 5, 0.38);
+}
+
+.flex-item-bottom strong{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 150px;
+    min-width: 100%;
+    padding: 10px;
+    background-image: url(../digitalmedia/images/village-image-1.jpg);
+    color: rgb(32, 27, 18);
+    text-decoration: none;
+    border: 5px solid rgba(43, 44, 5, 0.38);
+    float: left;
+    font-size: 3.2em;    
+
+}
+
+footer #bottom-flexbox a:hover {
+    color: rgb(32, 27, 18);
+    width: 100%;
+    transition: 0.9s;
+    text-decoration: none;
+}
+
+.flex-item-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 5px solid rgba(43, 44, 5, 0.38);
+    border-right: 5px solid rgba(43, 44, 5, 0.38);
+    min-height: 150px;
+    padding: 0 15px;
+    font-size: 2.2em;  
+    color: rgb(32, 27, 18);
+}

@@ -1,0 +1,76 @@
+
+h1#title {
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+body {
+    background-color: rgba(212, 178, 134, 0.668);
+    overflow: auto;
+}
+
+.description {
+    margin: 10px;
+    font-size: 1.4em;
+}
+
+span.description {
+    text-align: center;
+    font-weight: bold;
+}
+#guide-user-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 40px;
+    position: absolute;
+    width: 90%;
+    height: 100%;
+}
+
+.flex-navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.button {
+    min-width: 200px;
+    min-height: 80px;
+    font-size: 1.3em;
+    margin: 10px 60px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.button:hover {
+    background-color: green;
+}
+
+.display-area-container {
+    width: 90%;
+    height: 700px;
+    border: 8px inset goldenrod;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: azure;
+}
+
+.display-title-container {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    min-height: 30px;
+}
+
+#display-title {
+    font-size: 1.6em;
+}
+
+#description {
+    font-size: 2em;
+    margin: 10px;
+    padding: 5px;
+}

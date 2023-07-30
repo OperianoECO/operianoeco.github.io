@@ -1,0 +1,85 @@
+* {
+    font-family: Verdana;
+}
+
+#content {
+    height: 100vh;
+    min-width: 500px;
+    width: 100%;
+    margin: 0;
+}
+
+footer {
+    background-color: rgb(229, 204, 166);
+}
+
+h1 {
+    background-color: blanchedalmond;
+    text-align: center;
+}
+
+form {
+    padding: 10px;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    overflow:auto;
+    border-radius: 15px;
+    background-color: bisque;
+    border: 3px outset goldenrod;
+}
+
+fieldset {
+    border-radius: 15px;
+    border: 3px solid blanchedalmond;
+}
+
+legend {
+    text-align: center;
+    font-size: 2em;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgb(168, 150, 123);
+}
+
+input {
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.input {
+    margin: 5px;
+}
+
+
+
+label {
+    margin: 5px;
+}
+
+#reset {
+    float: left;
+    border-radius: 4px;
+}
+
+#submit {
+    float:right;
+    border-radius: 4px;
+}
+
+#reset input:hover{
+    background-color: red;
+}
+
+#submit input:hover {
+    background-color: green;
+}
+
+#information h1 {
+    margin: 0;
+}
+
+.footer-paragraph {
+    text-align: center;
+    font-size: 1.3em;
+}
